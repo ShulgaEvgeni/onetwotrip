@@ -1,0 +1,76 @@
+.navigation {
+	height: 53px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}
+.navigation-1 {
+	display: flex;
+	align-items: center;
+	width: 90%;
+	border: 2px solid #744fc5;
+	border-radius: 5px;
+}
+.navigation-item-1, .navigation-item-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 27px;	
+	font-size: 14px;
+}
+.navigation-item-1 {
+	border-radius: 3px 0 0 3px;
+}
+.navigation-item-2 {
+	border-radius: 0 3px 3px 0;
+}
+
+.list {
+	width: 100%;
+}
+.list-item {
+	background: #f3f3f3;
+	height: calc(100vh - 111px);
+	overflow-y: scroll;
+	-webkit-overflow-scrolling:touch;
+}
+
+.list-item-railways {
+	display: flex;
+	flex-wrap: wrap;
+}
+.list-item-railways-header {
+	background: #d2d2d2;
+	padding: 0 12px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	color: #888888;
+}
+.list-card {
+	width: calc(100vw - 30px);
+	max-width: 436px;
+	margin: 12px 15px;
+}
+.list-card p {
+	font-size: 14px;
+}
+.list-card-header {
+	background: #744fc5;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 12px 0 12px 12px;
+	border-radius: 7px 7px 0 0;
+}
+.list-card-id {
+	background: #fff;
+	display: flex;
+	align-items: center;
+	padding: 12px 0 12px 12px;
+	border-radius: 0 0 7px 7px;
+
+}

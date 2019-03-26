@@ -1,0 +1,94 @@
+{
+    "orderInfo": [
+        {
+            "type": "order",
+            "service": "avia",
+            "startDate": "2017/07/17",
+            "startTime": "1445",
+            "lastStartDate": "2017/07/17",
+            "id": "072fbd18-380c-47b3-8f86-bd063780c395",
+            "trip": "SVO-AMS;",
+            "route": [
+                [
+                    "SVO",
+                    "AMS"
+                ]
+            ],
+            "number": "H19526888",
+            "orderEmail": "vasya@yandex.ru",
+            "status": "Archive",
+            "airCmp": "SU",
+            "routeFullKey": "20170717SVOAMS",
+            "dateCreated": "2017-07-14T07:28:09.633Z"
+        },
+        {
+            "type": "order",
+            "service": "railroad",
+            "startDate": "2017/10/06",
+            "lastStartDate": "2017/10/06",
+            "id": "f3cfee8a-2286-4141-b1d0-d7f285e496be",
+            "route": [
+                [
+                    "Москва курская",
+                    "Серпухов"
+                ]
+            ],
+            "number": "H27627167",
+            "orderEmail": "vasya@onetwotrip.com",
+            "trainNumber": "851М",
+            "dateCreated": "2017-10-03T07:32:47.871Z",
+            "status": "Canceled",
+            "startTime": "0000"
+        }
+    ],
+    "references": {
+        "cities": {
+            "MOW": {
+                "name": "Москва",
+                "parent": "RU",
+                "lon": 37.6156,
+                "lat": 55.7522
+            },
+            "AMS": {
+                "name": "Амстердам",
+                "parent": "NL",
+                "lon": 4.8999,
+                "lat": 52.3731
+            }
+        },
+        "airports": {
+            "SVO": {
+                "name": "Шереметьево",
+                "parent": "MOW",
+                "lon": "37.4167",
+                "lat": "55.9833"
+            },
+            "AMS": {
+                "name": "Схипхол",
+                "parent": "AMS",
+                "lon": 4.76806,
+                "lat": 52.3083
+            }
+        },
+        "countries": {
+            "RU": {
+                "name": "Россия"
+            },
+            "NL": {
+                "name": "Нидерланды"
+            }
+        },
+        "airlines": {
+            "SU": {
+                "name": "Aeroflot",
+                "code": "SU",
+                "country": "Russian",
+                "fromOAG": "on",
+                "withPictures": "on",
+                "baggage": "",
+                "fullName": "Aeroflot",
+                "bgColor": "#0e4274"
+            }
+        }
+    }
+}
