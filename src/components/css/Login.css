@@ -1,5 +1,6 @@
 .navigation {
-	height: 53px;
+	margin-top:13px;
+	margin-bottom: 13px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -26,6 +27,10 @@
 .navigation-item-2 {
 	border-radius: 0 3px 3px 0;
 }
+.navigation-item-2:hover, .navigation-item-1:hover {
+	cursor: pointer;
+}
+
 
 .list {
 	width: 100%;
@@ -33,7 +38,7 @@
 .list-item {
 	background: #f3f3f3;
 	height: calc(100vh - 111px);
-	overflow-y: scroll;
+	overflow-y: auto;
 	-webkit-overflow-scrolling:touch;
 }
 
@@ -73,4 +78,10 @@
 	padding: 12px 0 12px 12px;
 	border-radius: 0 0 7px 7px;
 
+}
+
+.qwe {
+	background: #F00;
+	height: 50px;
+	width: 200px;
 }
