@@ -1,0 +1,5 @@
+- step:
+    name: Deploy to test
+    deployment: test
+    script:
+      - echo "Deploying to test environment"

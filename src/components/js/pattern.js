@@ -14,15 +14,17 @@ class Pattern extends React.Component {
 		}
 	}
 
-  	backApp = () => { this.props.history.go(-1) }
-  	
+	backApp = () => { this.props.history.go(-1) }
+
+	componentDidMount() { }
+
 	render() {
 
-			return (
-				<div className="wrapper">
-										
-				</div>
-			);
+		return (
+			<div className="wrapper">
+
+			</div>
+		);
 	}
 }
 
